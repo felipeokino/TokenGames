@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Token Games</string>
+    <string name="game_date">Date: %s</string>
+    <string name="game_platforms">Platforms: %s</string>
+</resources>

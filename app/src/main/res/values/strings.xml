@@ -2,4 +2,10 @@
     <string name="app_name">Token Games</string>
     <string name="game_date">Date: %s</string>
     <string name="game_platforms">Platforms: %s</string>
+
+    <string name="title_activity_splash_activity">Splash_activity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
 </resources>

@@ -17,32 +17,38 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <VideoView
-                android:id="@+id/game_trailer"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"/>
-
             <TextView
                 android:id="@+id/info_title"
                 android:layout_width="match_parent"
                 android:layout_height="90dp"
                 android:text="Title"
                 android:gravity="center"
-                android:textSize="30dp"/>
+                android:textSize="40sp"
+                android:textColor="#2d2d2d"/>
+
+            <com.google.android.youtube.player.YouTubePlayerView
+                android:id="@+id/game_trailer"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
             <TextView
                 android:id="@+id/info_date"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:layout_marginTop="40dp"
                 android:text="Date"
                 android:gravity="left"
-                android:textSize="20dp"/>
+                android:textSize="20sp"
+                android:textColor="#2d2d2d"/>
             <TextView
                 android:id="@+id/info_platforms"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:layout_marginTop="30dp"
                 android:text="Platforms"
                 android:gravity="left"
-                android:textSize="20dp"/>
+                android:textSize="20sp"
+                android:textColor="#2d2d2d"/>
 
 
 
